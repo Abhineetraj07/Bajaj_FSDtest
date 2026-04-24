@@ -110,7 +110,6 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <div className="eyebrow">SRM Full Stack Challenge · Round 1</div>
         <h1 className="title">BFHL Hierarchy Builder</h1>
         <p className="subtitle">
           Paste edges like <code style={{ fontFamily: 'var(--mono)' }}>A-&gt;B</code>,
@@ -262,12 +261,6 @@ export default function App() {
         </>
       )}
 
-      <footer className="footer">
-        Built for SRM Full Stack Challenge ·{' '}
-        <a href={`${API_URL}/bfhl`} target="_blank" rel="noreferrer">
-          API endpoint
-        </a>
-      </footer>
     </div>
   );
 }
