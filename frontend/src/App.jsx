@@ -112,9 +112,7 @@ export default function App() {
       <header className="header">
         <h1 className="title">BFHL Hierarchy Builder</h1>
         <p className="subtitle">
-          Paste edges like <code style={{ fontFamily: 'var(--mono)' }}>A-&gt;B</code>,
-          one per line or comma-separated. Submit to build trees, detect cycles, and
-          see validation results.
+          Enter edges like <code style={{ fontFamily: 'var(--mono)' }}>A-&gt;B</code>, one per line.
         </p>
       </header>
 
