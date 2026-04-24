@@ -110,7 +110,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1 className="title">BFHL Hierarchy Builder</h1>
+        <h1 className="title">Hierarchy Builder</h1>
         <p className="subtitle">
           Enter edges like <code style={{ fontFamily: 'var(--mono)' }}>A-&gt;B</code>, one per line.
         </p>
