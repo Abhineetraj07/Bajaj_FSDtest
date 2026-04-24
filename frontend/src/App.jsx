@@ -121,9 +121,6 @@ export default function App() {
       <section className="card">
         <div className="card-header">
           <span className="card-title">Input</span>
-          <span style={{ fontSize: 12, color: 'var(--text-mute)' }}>
-            {API_URL}/bfhl
-          </span>
         </div>
         <textarea
           className="input"
