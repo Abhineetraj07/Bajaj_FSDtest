@@ -1,0 +1,53 @@
+:root {
+  --bg: #0b0d12;
+  --bg-elev: #141821;
+  --bg-elev-2: #1c2130;
+  --border: #252b3b;
+  --border-strong: #3a4256;
+  --text: #e6e9ef;
+  --text-dim: #9aa3b8;
+  --text-mute: #6b7490;
+  --accent: #7c9cff;
+  --accent-strong: #5b7fff;
+  --green: #4ade80;
+  --red: #f87171;
+  --amber: #fbbf24;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+body {
+  background-image: radial-gradient(
+      circle at 15% -10%,
+      rgba(124, 156, 255, 0.08),
+      transparent 50%
+    ),
+    radial-gradient(circle at 90% 10%, rgba(251, 191, 36, 0.04), transparent 45%);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+textarea {
+  font-family: var(--mono);
+}
